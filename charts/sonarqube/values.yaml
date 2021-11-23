@@ -28,7 +28,7 @@ image:
   tag: 9.2.0-community
   pullPolicy: IfNotPresent
   # If using a private repository, the name of the imagePullSecret to use
-  # pullSecret: my-repo-secret
+  pullSecret: dockerhub-pullsecret
 
 # Set security context for sonarqube pod
 securityContext:
